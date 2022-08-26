@@ -1,5 +1,5 @@
-**Repositório para aprender a programar**
-Estou fazendo isso inicialmente através do curso Ituring
+**Repositório para aprender a programar:**
+Estou fazendo isso inicialmente através do curso Ituring.
 Aprendi o básico de estrutura sobre Javascript, HTML e CSS.
 
 *Programação é práticar, errar e aprender e ajustar*
