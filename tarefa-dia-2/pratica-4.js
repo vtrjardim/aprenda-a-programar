@@ -22,3 +22,16 @@ if (produtoC.internacional == true) {
 } else {
     console.log(`Valor do produto C (nacional) com impostos: ${nac*produtoC.valor}`)
 }
+
+console.log("'Solução' alternativa abaixo:")
+// Outra opção de resolução que pensei foi apontando diretamente o imposto sem condicionais, já que sei quais são internacionais ou nacionais:
+
+let prodAInter = inter*produtoA.valor
+let prodBInter = inter*produtoB.valor
+let prodCnac = nac*produtoC.valor
+
+console.log(`Produto Internacional de valor: ${prodAInter}`)
+console.log(`Produto Internacional de valor: ${prodBInter}`)
+console.log(`Produto Nacional de valor: ${prodCnac}`)
+
+// Pensei em soluções onde colocaria as 3 opções de produto em uma só condicional, porém não sei como faria a solicitação para printar no log a resposta para um produto especifico, acho que seria necessário um insert de texto(?), escolhendo o produto.
